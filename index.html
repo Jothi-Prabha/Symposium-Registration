@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<title>Symposium Registration</title>
+<link rel="icon" href="C:\PROJECT FET\icon.png">
+<link rel="stylesheet" href="style.css">
+<style>
+    span{
+	color:red;
+}
+</style>
+</head>
+<body>
+    <form action="thanks.html" onsubmit="return valid()">
+    <div>
+    <header>
+        <h3>College Symposium</h3>
+        <h1>AAMEC COLLEGE</h1>
+        <a href="mailto:aamec@gmail.com">&#9993;</a>
+    </header>
+        <section>
+            <article>
+            <input type="text" id="i1" placeholder="Enter Your First Name">
+            <span id="er1"></span>
+            <input type="text" id="i2" placeholder="Enter Your Last Name">
+            <span id="er2"></span>
+            <input type="email" id="i3" placeholder="Enter Your Email ID">
+            <span id="er3"></span>
+            <input type="text" id="i4" placeholder="Enter Your Mobile Number">
+            <span id="er4"></span>
+            <select name="dept" id="i5">
+                <option>--Select Department--</option>
+                <option>CSE</option>
+                <option>IT</option>
+                <option>MECH</option>
+                <option>ECE</option>
+                <option>EEE</option>
+            </select>
+            <span id="er5"></span>
+            <div id="d1">
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Others
+            </div>
+            <span id="er6"></span>
+            <input type="text" id="i6" placeholder="Enter Your College Name">
+            <span id="er7"></span>
+            <input type="Submit" id="i7" value="Register">
+            </article>
+        </section>
+    </div>
+</form>
+<script src="validation.js"></script>
+</body>
+</html>
